@@ -1,0 +1,206 @@
+
+.main{
+  height: 60px;
+  width:100%;
+  color: black;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+
+.small-button {
+  padding: 0.4em 1.5em; /* Adjust padding as desired */
+  font-size: 0.8em; /* Adjust font size as desired */
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+body{
+background-image: url('https://img.freepik.com/free-photo/abstract-background-with-rainbow-coloured-flowing-waves_1048-16932.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1715040000&semt=ais');
+background-size: cover; /* This will make the background image cover the entire element */
+
+
+}
+
+.name {
+padding: 100px;
+color: white;
+text-align: left;
+padding-left: 18%;
+}.motivational-line {
+  text-align: center;
+  color:white; /* White text color */
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 20px; /* Add padding for spacing */
+  background-image: url('https://media.istockphoto.com/id/1410469317/vector/beautiful-and-delicate-corrugated-background-illustration.jpg?s=612x612&w=0&k=20&c=CiQVpyb45qd29k_ynSx_UQscnDfrPhpaxOmjJBX-NWs=');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  border-radius: 20px; /* Add rounded corners */
+  width: 80%; /* Set width */
+  max-width: 600px; /* Set maximum width */
+  margin: 0 auto; /* Center horizontally */
+  margin-left: 20px; /* Adjust margin to the right */
+}
+
+.motivational-line h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.motivational-line p {
+  font-size: 18px;
+}
+
+
+
+.Achivements
+{
+
+   background-repeat: no-repeat;
+   background-size: cover;
+     background-image: url('https://img.freepik.com/free-photo/abstract-design-background-with-rainbow-colours_1048-14561.jpg');
+   color:white;
+   padding: 75px;  
+   font-size: 20px;
+}
+.s1
+{
+  height: 225px;
+  width: 225px;
+  border: 6px white;
+     background-image: url('data:image/jpeg;base64,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');
+     
+     color: white;
+     padding-top: 5px;
+     border-radius: 10px;
+     text-align: center;
+     
+    }
+    .s1:hover{
+  background-image: url('https://img.freepik.com/premium-photo/colorful-wave-with-purple-background-purple-background_192217-2534.jpg');
+  border-radius: 5px;
+  transform: scale(0.9);
+  transition: 0.8s;
+  border: 6px solid white;
+}
+.ach{
+  display:flex;
+ justify-content: space-around;
+   padding: 60px;
+}
+.image{
+  border-radius: 50%;
+}
+
+.skills
+{
+height: 250px;
+background-color: rgb(215, 215, 215);
+text-align: center;
+display:flex;
+justify-content: space-around; 
+
+}
+
+* {
+box-sizing: border-box;
+font-family: "Tahoma", sans-serif;
+line-height: 1;
+}
+
+
+body {
+max-width: 100%;
+margin: 0;
+padding: 0;
+background-color:black;
+
+
+}
+.logo {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Adjust spacing between logo and navigation */
+}
+
+.photo {
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make it circular */
+  margin-right: 20px; /* Adjust spacing between photo and text */
+}
+button:hover{
+  background-color: orange;
+  color: #f5f5f6;
+}
+
+.button-85 {
+padding: 0.6em 2em;
+border: none;
+outline: none;
+color: rgb(255, 255, 255);
+background: #111;
+cursor: pointer;
+position: relative;
+z-index: 0;
+border-radius: 10px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button-85:before {
+content: "";
+background: linear-gradient(
+  45deg,
+  #ff0000,
+  #ff7300,
+  #fffb00,
+  #48ff00,
+  #00ffd5,
+  #002bff,
+  #7a00ff,
+  #ff00c8,
+  #ff0000
+);
+position: absolute;
+top: -2px;
+left: -2px;
+background-size: 400%;
+z-index: -1;
+filter: blur(5px);
+-webkit-filter: blur(5px);
+width: calc(100% + 4px);
+height: calc(100% + 4px);
+animation: glowing-button-85 20s linear infinite;
+transition: opacity 0.3s ease-in-out;
+border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+0% {
+  background-position: 0 0;
+}
+50% {
+  background-position: 400% 0;
+}
+100% {
+  background-position: 0 0;
+}
+}
+
+.button-85:after {
+z-index: -1;
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+background: #222;
+left: 0;
+top: 0;
+border-radius: 10px;
+}
